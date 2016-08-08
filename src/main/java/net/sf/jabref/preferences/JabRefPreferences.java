@@ -115,6 +115,7 @@ public class JabRefPreferences {
     public static final String BIBLATEX_DEFAULT_MODE = "biblatexMode";
     public static final String NAMES_AS_IS = "namesAsIs";
     public static final String TABLE_COLOR_CODES_ON = "tableColorCodesOn";
+    public static final String TABLE_RESOLVED_COLOR_CODES_ON = "tableResolvedColorCodesOn";
     public static final String ENTRY_EDITOR_HEIGHT = "entryEditorHeight";
     public static final String PREVIEW_PANEL_HEIGHT = "previewPanelHeight";
     public static final String AUTO_RESIZE_MODE = "autoResizeMode";
@@ -237,6 +238,7 @@ public class JabRefPreferences {
     public static final String TABLE_TEXT = "tableText";
     public static final String TABLE_OPT_FIELD_BACKGROUND = "tableOptFieldBackground";
     public static final String TABLE_REQ_FIELD_BACKGROUND = "tableReqFieldBackground";
+    public static final String TABLE_RESOLVED_FIELD_BACKGROUND = "tableResolvedFieldBackground";
     public static final String TABLE_BACKGROUND = "tableBackground";
     public static final String TABLE_SHOW_GRID = "tableShowGrid";
     public static final String TABLE_ROW_PADDING = "tableRowPadding";
@@ -535,6 +537,7 @@ public class JabRefPreferences {
         defaults.put(PREVIEW_PANEL_HEIGHT, 200);
         defaults.put(ENTRY_EDITOR_HEIGHT, 400);
         defaults.put(TABLE_COLOR_CODES_ON, Boolean.FALSE);
+        defaults.put(TABLE_RESOLVED_COLOR_CODES_ON, Boolean.FALSE);
         defaults.put(NAMES_AS_IS, Boolean.FALSE); // "Show names unchanged"
         defaults.put(NAMES_FIRST_LAST, Boolean.FALSE); // "Show 'Firstname Lastname'"
         defaults.put(NAMES_NATBIB, Boolean.TRUE); // "Natbib style"
@@ -655,6 +658,7 @@ public class JabRefPreferences {
         defaults.put(TABLE_BACKGROUND, "255:255:255");
         defaults.put(TABLE_REQ_FIELD_BACKGROUND, "230:235:255");
         defaults.put(TABLE_OPT_FIELD_BACKGROUND, "230:255:230");
+        defaults.put(TABLE_RESOLVED_FIELD_BACKGROUND, "240:240:240");
         defaults.put(TABLE_TEXT, "0:0:0");
         defaults.put(GRID_COLOR, "210:210:210");
         defaults.put(GRAYED_OUT_BACKGROUND, "210:210:210");
